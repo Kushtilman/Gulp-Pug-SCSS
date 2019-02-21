@@ -1,0 +1,10 @@
+body {
+    font-size: calc(100vw * 0.0054 + 13px);
+    @include media('>widescreen') {
+        font-size: 20px;
+    }
+}
+
+.container {
+
+}
